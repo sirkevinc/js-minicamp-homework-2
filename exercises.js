@@ -1,6 +1,10 @@
 // Do not change any of the function names
 
 function getBiggest(x, y) {
+  if (x > y){
+    return x;
+  }
+  return y;
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
 }
