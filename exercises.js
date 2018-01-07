@@ -10,6 +10,16 @@ function getBiggest(x, y) {
 }
 
 function greeting(language) {
+  switch(language) {
+    case 'German':
+      return 'Guten Tag!';
+    case 'English':
+      return 'Hello!';
+    case 'Spanish':
+      return 'Hola!';
+    default:
+      return 'Hello!';
+  }
   // return a greeting for three different languages:
   // language: 'German' -> 'Guten Tag!'
   // language: 'English' -> 'Hello!'
